@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e3550e; /* Couleur du fond de l'en-tête */
+    margin-top: 0px; /* Marge supérieure de l'en-tête */
+    margin: 0px; /* Supprimer les marges par défaut */
+    position: fixed; /* Fixer l'en-tête en haut de la page */
+    width: 100%; /* Prendre toute la largeur de la page */
+    top: 0; /* Positionner l'en-tête en haut de la page */
+    z-index: 1000; /* Assurer que l'en-tête est au-dessus des autres éléments */
+    height: 75px;   /* Hauteur de l'en-tête */
+    left: 0px; /* Positionner l'en-tête à gauche de la page */
+    margin-bottom: 250px; /* Marge inférieure de l'en-tête */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+}
+
+.logo h1 {
+    color: rgb(3, 241, 11);
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+.search-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    transition: background-color 0.3s ease;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.search-button:hover {
+    background-color: #ed8484;
+}

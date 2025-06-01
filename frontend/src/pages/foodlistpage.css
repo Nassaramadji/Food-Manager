@@ -1,0 +1,43 @@
+.corps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: 7px;
+    gap: 7px;
+    width: 100%;
+    border: 1px solid aquamarine;
+    border-radius: 12px;
+}
+
+img{
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Maintient le ratio de l'image */
+    margin-bottom: 10px; /* Espace entre l'image et le texte */
+
+}
+
+.ajouter{
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main au survol */
+    font-size: 16px; /* Taille de police du bouton */
+}
+.corps2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: 7px;
+    gap: 7px;
+    width: 100%;
+    border: 1px solid aquamarine;
+    border-radius: 12px;
+    margin-top: 25px;
+}

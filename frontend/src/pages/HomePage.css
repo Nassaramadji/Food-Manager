@@ -1,0 +1,95 @@
+.homepage {
+    background-color: #debfb0; /* Couleur de fond de la page d'accueil */
+    padding: 20px;
+    color: white;
+    padding-top: 100px; /* Adjusted for fixed header */
+    height: 100vh; /* Full viewport height */
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 0cap;
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 10px 0;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+.logout-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 30;
+    font-weight: 700;
+}
+
+.logout-button:hover {
+    background-color: #f1f1f1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d3baae; /* Couleur de fond de l'en-tête */
+}
+
+.accueil_image {
+    width: 100%;
+    height: auto;
+    max-width: 950px; /* Limite la largeur de l'image */
+    border-radius: 10px; /* Ajoute des coins arrondis */
+}
+
+.header-content h1 {
+    color: white;
+    margin: 0;
+}
+.nav-list {
+    color: white;
+    margin: 5px 0;
+    border : 7px solid white; /* Bordure blanche */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+    border-radius: 10px; /* Coins arrondis pour la bordure */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le contraste */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+    font-weight: 200;
+}
+
+footer {
+    background-color: #d3baae; /* Couleur de fond du pied de page */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    bottom: 0px; /* Positionne le pied de page en bas de la page */
+}

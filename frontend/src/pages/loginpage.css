@@ -1,0 +1,33 @@
+.corps{
+    display: flex; /* Flexbox pour la mise en page */
+    flex-direction: column; /* Colonne pour empiler les éléments */
+    justify-content: center; 
+    margin-top: 0px; /* Espace au-dessus du contenu principal */
+    padding: 20px; /* Espace intérieur */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Centrer les éléments horizontalement */
+    border: 6px solid #ccc; /* Bordure autour du contenu principal */
+    border-radius: 10px; /* Coins arrondis */
+    width: 1000px; /* Largeur du conteneur */
+    margin-left: 100px; /* Espace à gauche */
+    background-color: aquamarine; /* Couleur de fond du conteneur */
+}
+
+.email,.passeword {
+    font-size: 16px; /* Taille de police pour les champs de saisie */
+    width: 1000px; /* Largeur des champs de saisie */
+    padding: 10px; /* Espace intérieur */
+    margin: 10px 0; /* Espace entre les champs */
+    border: 5px solid #ccc; /* Bordure des champs */
+    border-radius: 7px; /* Coins arrondis */
+}
+
+.connecter {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main au survol */
+    font-size: 16px; /* Taille de police du bouton */
+}

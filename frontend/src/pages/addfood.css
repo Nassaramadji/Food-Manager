@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(165, 239, 239);
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* Adjusted for fixed header */
+}
+
+.descriptions{
+  padding: 0.5rem;
+  border: 3px solid black;
+  border-radius: 7px;
+  resize: vertical; 
+  height: 100px;
+  width: 1000px;
+  position: relative; 
+}
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.NomPlat{
+    width: 1010px;
+    border: 3px solid black;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.ajout{
+    width: 100px;
+    height: 30px;
+    background-color: #e86f32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
