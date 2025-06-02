@@ -1,3 +1,4 @@
+
 # Étape 1 : Build React
 FROM node:20 AS frontend-build
 WORKDIR /app
@@ -26,4 +27,5 @@ ENV FLASK_RUN_HOST=0.0.0.0
 
 EXPOSE 5000
 
+# Commande pour démarrer l'application Flask
 CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
