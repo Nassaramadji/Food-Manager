@@ -49,19 +49,19 @@ const handleAddToBuffet = async (platId) => {
       )}
 
       <div className="corps">
-        {plats.map((plat) => (
-          <div key={plat.id} className="corps1">
+        {plats.map((plats) => (
+          <div key={plats.id} className="corps1">
             <img
-              src={`http://localhost:5000${plat.image_url}`}
-              alt={plat.nom}
+              src={plats.image_url}
+              alt={plats.nom}
               className="w-full h-48 object-cover"
             />
             <div className="corps2">
-              <h2 className="nom">{plat.nom}</h2>
-              <p className="description">{plat.description}</p>
-              <p className='ingredients'>{plat.ingredients}</p>
+              <h2 className="nom">{plats.nom}</h2>
+              <p className="description"><b>Description :</b>{plats.description}</p>
+              <p className='ingredients'><b>Ingredients</b>{plats.ingredients}</p>
               <button
-                onClick={() => handleAddToBuffet(plat.id)}
+                onClick={() => handleAddToBuffet(plats.id)}
                 className="ajouter">
                 Ajouter au buffet
               </button>

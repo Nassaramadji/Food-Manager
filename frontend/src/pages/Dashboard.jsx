@@ -24,12 +24,14 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className="p-4" style={{backgroundColor:'yellow'}}>
+    <div className="p-4">
       <h2 className="text-2xl mb-4">Mes plats</h2>
       <ul className="space-y-2">
         {foods.map(food => (
           <li key={food.id} className="border p-2 rounded">
-            <strong>{food.name}</strong>: {food.description}
+            <strong>{food.nom}</strong>:<br/>
+             Desription: {food.description} <br />
+             Ingredients : {food.ingredient}
           </li>
         ))}
       </ul>

@@ -14,7 +14,7 @@ for i in range(nombre_a_ajouter):
     nouveau_plat = {
         "nom": f"Plat factice {start_index + i}",
         "categorie": categories[i % len(categories)],
-        "image": f"image_{start_index + i}.jpg",
+        "image": f"image_{start_index + i}.jpeg",
         "image_url": f"https://example.com/image_{start_index + i}.jpg"
     }
     plats.append(nouveau_plat)

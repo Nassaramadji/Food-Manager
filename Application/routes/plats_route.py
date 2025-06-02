@@ -14,7 +14,8 @@ def get_all_plats():
             "id": p.id,
             "nom": p.nom,
             "description": p.description,
-            "image_url": f"http://localhost:5000/images/{p.image_path}"
+            "ingredients": p.ingredients,
+            "image_url": f"/images/eru1.jpeg"
         }
         for p in plats
     ])

@@ -5,7 +5,7 @@
     justify-content: center;
     white-space: 7px;
     gap: 7px;
-    width: 100%;
+    width: 93%;
     border: 1px solid aquamarine;
     border-radius: 12px;
 }
@@ -32,11 +32,12 @@ img{
 .corps2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    padding-left: 10px;
+    justify-content: left;
     white-space: 7px;
     gap: 7px;
-    width: 100%;
+    width: 99%;
     border: 1px solid aquamarine;
     border-radius: 12px;
     margin-top: 25px;
